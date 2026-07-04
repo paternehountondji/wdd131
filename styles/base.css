@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+#course-title {
+  display: block;
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+header img {
+  width: 60px;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #002244;
+  padding: 0.8rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f0c040;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #003366;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  font-family: 'Merriweather', serif;
+}
+
+.card h3 {
+  text-align: center;
+  padding: 0.8rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  color: #003366;
+}
+
+.about-content {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.about-content img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.country-content {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.country-content img {
+  width: 120px;
+  border: 1px solid #ddd;
+}
+
+.card ul {
+  list-style: disc;
+  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+}
+
+.card ul li {
+  margin-bottom: 0.8rem;
+}
+
+.card ul a {
+  color: #003366;
+  text-decoration: none;
+}
+
+.card ul a:hover {
+  text-decoration: underline;
+  color: #f0c040;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+#lastModified {
+  color: #f0c040;
+  font-size: 0.9rem;
+}
