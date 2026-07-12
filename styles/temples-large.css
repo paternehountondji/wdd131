@@ -1,0 +1,22 @@
+@media screen and (min-width: 640px) {
+  #hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    border-bottom: none;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
