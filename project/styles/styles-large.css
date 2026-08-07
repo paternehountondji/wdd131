@@ -1,0 +1,58 @@
+@media screen and (min-width: 640px) {
+  /* HEADER */
+  #hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    border-bottom: none;
+    padding: 0.3rem 0.5rem;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 5rem 2rem;
+  }
+
+  .hero h2 {
+    font-size: 3rem;
+  }
+
+  /* FEATURES */
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* PRODUCTS */
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* NEWSLETTER */
+  .newsletter form {
+    flex-direction: row;
+  }
+
+  .newsletter input[type="email"] {
+    flex: 1;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
